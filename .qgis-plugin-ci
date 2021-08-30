@@ -1,0 +1,5 @@
+plugin_path: testplugin
+github_organization_slug: GispoCoding
+project_slug: pyqgis-advanced-workshop
+transifex_coordinator: replace-me
+transifex_organization: replace-me
