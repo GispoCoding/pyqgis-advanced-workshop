@@ -9,8 +9,9 @@ from testplugin.qgis_plugin_tools.tools.custom_logging import (
     setup_logger,
     teardown_logger,
 )
-from testplugin.qgis_plugin_tools.tools.i18n import setup_translation
+from testplugin.qgis_plugin_tools.tools.i18n import setup_translation, tr
 from testplugin.qgis_plugin_tools.tools.resources import plugin_name
+from testplugin.ui.project_dialog import ProjectDialog
 
 
 class Plugin:
@@ -109,6 +110,13 @@ class Plugin:
             parent=iface.mainWindow(),
             add_to_toolbar=False,
         )
+        self.add_action(
+            "",
+            text=tr("Load/save Project"),
+            callback=self.open_project_dialog,
+            parent=iface.mainWindow(),
+            add_to_toolbar=False,
+        )
 
     def onClosePlugin(self) -> None:  # noqa N802
         """Cleanup necessary items here when plugin dockwidget is closed"""
@@ -124,3 +132,6 @@ class Plugin:
     def run(self) -> None:
         """Run method that performs all the real work"""
         print("Hello QGIS plugin")
+
+    def open_project_dialog(self) -> None:
+        ProjectDialog().exec()
