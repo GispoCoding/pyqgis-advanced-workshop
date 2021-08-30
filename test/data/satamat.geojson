@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "satamat",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "nimi": "Eurajoki", "tonnia_vienti": 85920, "tonnia_tuonti": 213262, "date": "2021-01-26", "datetime": "2021-01-26T10:05:56", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 21.4878, 61.2468 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "nimi": "Forby", "tonnia_vienti": 10516, "tonnia_tuonti": 223134, "date": "2021-01-26", "datetime": "2021-01-26T10:05:29", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 22.8657, 60.0988 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "nimi": "Hamina,Kotka", "tonnia_vienti": 10386150, "tonnia_tuonti": 4709429, "date": "2021-01-06", "datetime": "2021-01-26T10:05:28", "bool": null }, "geometry": { "type": "Point", "coordinates": [ 26.9405, 60.4686 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "nimi": "Hanko", "tonnia_vienti": 2592483, "tonnia_tuonti": 2160444, "date": "2021-01-26", "datetime": "2021-01-11T00:00:00", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 22.9567, 59.8223 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "nimi": "Helsinki", "tonnia_vienti": 7377509, "tonnia_tuonti": 7193129, "date": "2021-01-26", "datetime": "2021-01-13T00:00:00", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 25.1755, 60.2228 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "nimi": "Inkoo", "tonnia_vienti": 864003, "tonnia_tuonti": 1012706, "date": "2021-01-26", "datetime": "2021-01-07T12:50:00", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 24.0077, 60.0431 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "nimi": "Kemio", "tonnia_vienti": 18505, "tonnia_tuonti": 34066, "date": "2021-01-26", "datetime": "2021-01-26T10:05:34", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 22.7499, 60.1712 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "nimi": "Lappeenranta", "tonnia_vienti": 37047, "tonnia_tuonti": 279423, "date": "2021-01-26", "datetime": "2021-01-21T00:00:00", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 28.3297, 61.0564 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "nimi": "Naantali", "tonnia_vienti": 1542843, "tonnia_tuonti": 4139181, "date": "2021-01-26", "datetime": "2021-02-11T00:00:00", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 22.0923, 60.4469 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "nimi": "Parainen", "tonnia_vienti": 144023, "tonnia_tuonti": 331196, "date": "2021-01-26", "datetime": "2021-01-26T10:05:54", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 22.3007, 60.297 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "nimi": "Pori", "tonnia_vienti": 1934234, "tonnia_tuonti": 1553107, "date": "2021-01-26", "datetime": "2021-01-26T10:05:53", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 21.4851, 61.5932 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "nimi": "Rauma", "tonnia_vienti": 4162522, "tonnia_tuonti": 1588063, "date": "2021-01-26", "datetime": "2021-01-26T10:05:55", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 21.4521, 61.1283 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "nimi": "Skoldvik", "tonnia_vienti": 8557615, "tonnia_tuonti": 12873862, "date": "2021-01-26", "datetime": "2021-01-26T10:05:55", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 25.5374, 60.2941 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "nimi": "Taalintehdas", "tonnia_vienti": 4404, "tonnia_tuonti": 4620, "date": "2021-01-26", "datetime": "2021-01-26T10:05:56", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 22.508, 60.0204 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "nimi": "Turku", "tonnia_vienti": 1122041, "tonnia_tuonti": 994114, "date": "2021-01-26", "datetime": "2021-01-26T10:05:56", "bool": true }, "geometry": { "type": "Point", "coordinates": [ 22.2238, 60.4347 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "nimi": "Uusikaupunki", "tonnia_vienti": 1454930, "tonnia_tuonti": 1024675, "date": "2021-01-26", "datetime": "2021-01-26T10:05:58", "bool": false }, "geometry": { "type": "Point", "coordinates": [ 21.3895, 60.797 ] } }
+]
+}

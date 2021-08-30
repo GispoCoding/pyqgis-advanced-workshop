@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"name": "viivat",
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "POINTA": 13.0, "POINTB": 1.0, "POINTC": 3.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.51, 60.02 ], [ 22.87, 60.1 ], [ 22.96, 59.82 ], [ 22.51, 60.02 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "POINTA": 13.0, "POINTB": 6.0, "POINTC": 1.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.51, 60.02 ], [ 22.75, 60.17 ], [ 22.87, 60.1 ], [ 22.51, 60.02 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "POINTA": 4.0, "POINTB": 3.0, "POINTC": 5.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 25.18, 60.22 ], [ 22.96, 59.82 ], [ 24.01, 60.04 ], [ 25.18, 60.22 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "POINTA": 8.0, "POINTB": 14.0, "POINTC": 9.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.09, 60.45 ], [ 22.22, 60.43 ], [ 22.3, 60.3 ], [ 22.09, 60.45 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "POINTA": 9.0, "POINTB": 6.0, "POINTC": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.3, 60.3 ], [ 22.75, 60.17 ], [ 22.51, 60.02 ], [ 22.3, 60.3 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "POINTA": 2.0, "POINTB": 4.0, "POINTC": 12.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 26.94, 60.47 ], [ 25.18, 60.22 ], [ 25.54, 60.29 ], [ 26.94, 60.47 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 7, "POINTA": 13.0, "POINTB": 8.0, "POINTC": 9.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.51, 60.02 ], [ 22.09, 60.45 ], [ 22.3, 60.3 ], [ 22.51, 60.02 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 8, "POINTA": 1.0, "POINTB": 5.0, "POINTC": 3.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.87, 60.1 ], [ 24.01, 60.04 ], [ 22.96, 59.82 ], [ 22.87, 60.1 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 9, "POINTA": 2.0, "POINTB": 3.0, "POINTC": 4.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 26.94, 60.47 ], [ 22.96, 59.82 ], [ 25.18, 60.22 ], [ 26.94, 60.47 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 10, "POINTA": 13.0, "POINTB": 15.0, "POINTC": 8.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.51, 60.02 ], [ 21.39, 60.8 ], [ 22.09, 60.45 ], [ 22.51, 60.02 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 11, "POINTA": 14.0, "POINTB": 6.0, "POINTC": 9.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.22, 60.43 ], [ 22.75, 60.17 ], [ 22.3, 60.3 ], [ 22.22, 60.43 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 12, "POINTA": 11.0, "POINTB": 8.0, "POINTC": 15.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.45, 61.13 ], [ 22.09, 60.45 ], [ 21.39, 60.8 ], [ 21.45, 61.13 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 13, "POINTA": 0.0, "POINTB": 8.0, "POINTC": 11.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.25 ], [ 22.09, 60.45 ], [ 21.45, 61.13 ], [ 21.49, 61.25 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 14, "POINTA": 0.0, "POINTB": 14.0, "POINTC": 8.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.25 ], [ 22.22, 60.43 ], [ 22.09, 60.45 ], [ 21.49, 61.25 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 15, "POINTA": 11.0, "POINTB": 10.0, "POINTC": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.45, 61.13 ], [ 21.49, 61.59 ], [ 21.49, 61.25 ], [ 21.45, 61.13 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 16, "POINTA": 10.0, "POINTB": 14.0, "POINTC": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.59 ], [ 22.22, 60.43 ], [ 21.49, 61.25 ], [ 21.49, 61.59 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 17, "POINTA": 6.0, "POINTB": 5.0, "POINTC": 1.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 22.75, 60.17 ], [ 24.01, 60.04 ], [ 22.87, 60.1 ], [ 22.75, 60.17 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 18, "POINTA": 10.0, "POINTB": 6.0, "POINTC": 14.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.59 ], [ 22.75, 60.17 ], [ 22.22, 60.43 ], [ 21.49, 61.59 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 19, "POINTA": 10.0, "POINTB": 5.0, "POINTC": 6.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.59 ], [ 24.01, 60.04 ], [ 22.75, 60.17 ], [ 21.49, 61.59 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 20, "POINTA": 15.0, "POINTB": 10.0, "POINTC": 11.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.39, 60.8 ], [ 21.49, 61.59 ], [ 21.45, 61.13 ], [ 21.39, 60.8 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 21, "POINTA": 10.0, "POINTB": 4.0, "POINTC": 5.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.59 ], [ 25.18, 60.22 ], [ 24.01, 60.04 ], [ 21.49, 61.59 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 22, "POINTA": 10.0, "POINTB": 12.0, "POINTC": 4.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.59 ], [ 25.54, 60.29 ], [ 25.18, 60.22 ], [ 21.49, 61.59 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 23, "POINTA": 12.0, "POINTB": 7.0, "POINTC": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 25.54, 60.29 ], [ 28.33, 61.06 ], [ 26.94, 60.47 ], [ 25.54, 60.29 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": 24, "POINTA": 10.0, "POINTB": 7.0, "POINTC": 12.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 21.49, 61.59 ], [ 28.33, 61.06 ], [ 25.54, 60.29 ], [ 21.49, 61.59 ] ] ] } }
+]
+}
