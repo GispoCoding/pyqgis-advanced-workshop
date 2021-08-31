@@ -11,6 +11,7 @@ from testplugin.qgis_plugin_tools.tools.custom_logging import (
 )
 from testplugin.qgis_plugin_tools.tools.i18n import setup_translation, tr
 from testplugin.qgis_plugin_tools.tools.resources import plugin_name
+from testplugin.ui.layer_loader_dialog import LayerLoaderDialog
 from testplugin.ui.project_dialog import ProjectDialog
 
 
@@ -117,6 +118,13 @@ class Plugin:
             parent=iface.mainWindow(),
             add_to_toolbar=False,
         )
+        self.add_action(
+            "",
+            text=tr("Load layer"),
+            callback=self.open_layer_loader_dialog,
+            parent=iface.mainWindow(),
+            add_to_toolbar=False,
+        )
 
     def onClosePlugin(self) -> None:  # noqa N802
         """Cleanup necessary items here when plugin dockwidget is closed"""
@@ -135,3 +143,6 @@ class Plugin:
 
     def open_project_dialog(self) -> None:
         ProjectDialog().exec()
+
+    def open_layer_loader_dialog(self) -> None:
+        LayerLoaderDialog().exec()
