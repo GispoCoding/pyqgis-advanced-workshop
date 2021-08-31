@@ -14,6 +14,7 @@ from testplugin.qgis_plugin_tools.tools.resources import plugin_name
 from testplugin.ui.layer_creator_dialog import LayerCreatorDialog
 from testplugin.ui.layer_loader_dialog import LayerLoaderDialog
 from testplugin.ui.project_dialog import ProjectDialog
+from testplugin.ui.style_changer_dialog import StyleChangerDialog
 
 
 class Plugin:
@@ -133,6 +134,13 @@ class Plugin:
             parent=iface.mainWindow(),
             add_to_toolbar=False,
         )
+        self.add_action(
+            "",
+            text=tr("Change layer style"),
+            callback=self.open_style_changer_dialog,
+            parent=iface.mainWindow(),
+            add_to_toolbar=False,
+        )
 
     def onClosePlugin(self) -> None:  # noqa N802
         """Cleanup necessary items here when plugin dockwidget is closed"""
@@ -157,3 +165,6 @@ class Plugin:
 
     def open_layer_creator_dialog(self) -> None:
         LayerCreatorDialog().exec()
+
+    def open_style_changer_dialog(self) -> None:
+        StyleChangerDialog().exec()
